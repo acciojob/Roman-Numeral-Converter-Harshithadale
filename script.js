@@ -26,7 +26,7 @@ function convertToRoman(num) {
           res = res + "XC"
       }
       else if(remaining >= 40 && remaining < 50){
-          remaining = remaining - 50
+          remaining = remaining - 40
           res = res + "XL"
       }
       else if(remaining >= 9 && remaining < 10){

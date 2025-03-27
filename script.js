@@ -34,7 +34,7 @@ function convertToRoman(num) {
           res = res + "IX"
       }
       else if(remaining >= 4 && remaining < 5){
-          remaining = remaining - 90
+          remaining = remaining - 4
           res = res + "IV"
       }
       else if(remaining >= obj["0"][1]){
